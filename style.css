@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: #ffffff;
+    background-color: rgb(57, 56, 56);
+}
+
+h1 {
+    color: #1897bea7;
+    font-weight: 500;
+    font-size: 46px;
+    background-color: #2d2d2d;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #ffffffa7;
+    background-color: #2d2d2d;
+    text-align: center;
+    padding: 20px;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteinerCadastro {
+    display: inline-block;
+    width: 40%;
+    margin-left: 7%;
+    margin-right: 2%;
+    background-color: #2d2d2d;
+    border: 1px solid #1897bea7;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 450px;
+    margin-top: 5%;
+}
+
+.lista-container {
+    display: inline-block;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 2%;
+    background-color: #2d2d2d;
+    border: 1px solid #1897bea7;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 450px;
+    margin-top: 5%;
+}
+
+.conteinerCadastro input[type="text"],
+.lista-container input[type="text"],
+.conteinerCadastro input[type="number"],
+.lista-container input[type="number"] {
+    width: 50%;
+    padding: 8px;
+    border: 2px solid #1897bea7;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px auto;
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: felx;
+    align-items: center;
+    margin-left: 155px;
+    color: #0b8a1c;
+}
+
+.form-group input {
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    padding: 8px;
+    color: #0b8a1cb9;
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.lista-container::-webkit-scrollbar {
+    width: 12px;
+    height: 8px;
+}
+
+.lista-container::-webkit-scrollbar-thumb {
+    background-color: #1897bea7;
+    border-radius: 6px;
+    border: 3px solid #2d2d2d;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: #0b8a1c;
+    padding: 10px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(57, 56, 56);
+    color: #e2e2e2;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #d4d4d4a7;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid #0b8a1c;
+}
